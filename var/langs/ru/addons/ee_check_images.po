@@ -1,0 +1,33 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU"
+
+msgctxt "Addons::name::ee_check_images"
+msgid "ee_check_images_name"
+msgstr "[efimchenko.ru] Проверка загружаемых изображений"
+
+msgctxt "Addons::description::ee_check_images"
+msgid "ee_check_images_description"
+msgstr "Проверка загружаемых изображений на соответствие параметрам указанных в настройках модуля."
+
+msgctxt "SettingsSections::ee_check_images::general"
+msgid "ee_check_images_general"
+msgstr "Общее"
+
+msgctxt "SettingsOptions::ee_check_images::max_size"
+msgid "ee_check_images_max_size"
+msgstr "Максимальное значение px"
+
+msgctxt "SettingsOptions::ee_check_images::min_size"
+msgid "ee_check_images_min_size"
+msgstr "Минимальное значение px"
+
+msgctxt "SettingsOptions::ee_check_images::message_1"
+msgid "ee_check_images_aspect_message_1"
+msgstr "Сообщение Соотношение сторон"
+
+msgctxt "SettingsOptions::ee_check_images::message_2"
+msgid "ee_check_images_aspect_message_2"
+msgstr "Сообщение Максимальный размер сторон"

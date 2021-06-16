@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>ee_check_images</id>
+    <version>1.0.4</version>
+    <status>active</status>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>ru</default_language>
+
+    <has_icon>Y</has_icon>
+    <supplier>MakeShop.pro</supplier>
+    <supplier_link>http://MakeShop.pro</supplier_link>
+
+    <settings layout="separate" edition_type="ROOT,VENDOR,STOREFRONT">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="max_size">                      
+                        <type>input</type>
+						<default_value>1600</default_value>
+                    </item>
+                    <item id="min_size">                      
+                        <type>input</type>
+						<default_value>700</default_value>
+                    </item>
+                    <item id="message_1">                      
+                        <type>input</type>
+						<default_value>Неверное соотношение сторон изображения.</default_value>
+                    </item>
+                    <item id="message_2">                      
+                        <type>input</type>
+						<default_value>Неверное разрешение изображения.</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+
+    <functions>
+        <item for="install">fn_ee_check_images_install</item>
+        <item for="uninstall">fn_ee_check_images_uninstall</item>
+    </functions>
+</addon>
